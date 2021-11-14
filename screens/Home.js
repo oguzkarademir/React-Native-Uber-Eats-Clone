@@ -6,8 +6,9 @@ import Categories from '../components/home/Categories'
 import HeaderTabs from '../components/home/HeaderTabs'
 import RestaurantItem from '../components/home/RestaurantItem'
 import SearchBar from '../components/home/SearchBar'
+import {REACT_APP_YELP_KEY} from '@env' 
 
-const YELP_API_KEY = "pfdkIAy8EpVDyrQovVnEK5iAWcse838Ke1zyVB_cnZVrx-qtl0hSE4qhH3zd5n3rfwU_yiVfrg2A9TuVT-cRpkFng3DI78aF-kxbqy5M3sOQ_RStnukfnZpAnZdLYXYx";
+const YELP_API_KEY = REACT_APP_YELP_KEY;
 
 export default function Home({navigation}) {
 
